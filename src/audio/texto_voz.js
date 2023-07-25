@@ -4,7 +4,7 @@ import * as Speech from 'expo-speech';
 
 export default function App(){
     const voz = () =>{
-        const palabra = '¡hola!, ¿como estas? ';
+        const palabra = 'chupame el pito ';
         tipos_voz = Speech.getAvailableVoicesAsync();
         console.log(tipos_voz);
 
